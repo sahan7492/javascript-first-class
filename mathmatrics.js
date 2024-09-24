@@ -16,4 +16,27 @@ var sorbo_mut = khataNItam * PerPice
 var TkAche = 3000 ;
 var pent_per_pice = 600 ;
 var kintamParmu = TkAche / pent_per_pice ;
-console.log(kintamParmu)
+// console.log(kintamParmu)
+
+
+
+var kholom = 3 ;
+kholom += 2 ;
+// console.log(kholom)
+kholom -= 1
+// console.log(kholom)
+kholom *= 3 ;
+// console.log(kholom)
+kholom /= 7 ;
+// console.log(kholom)
+var dosomik = kholom.toFixed(4)
+// console.log(kholom)
+var dosomikSecond = kholom.toFixed(2)
+// console.log(dosomikSecond)
+
+
+var dosomikCancel = parseInt(kholom)
+// console.log(dosomikCancel)
+
+var numberToString = parseFloat(kholom)
+console.log(numberToString)
